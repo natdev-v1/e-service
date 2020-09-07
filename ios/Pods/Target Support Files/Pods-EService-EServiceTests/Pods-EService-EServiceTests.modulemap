@@ -1,0 +1,6 @@
+module Pods_EService_EServiceTests {
+  umbrella header "Pods-EService-EServiceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

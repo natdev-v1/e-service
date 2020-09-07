@@ -1,0 +1,6 @@
+module Pods_EService {
+  umbrella header "Pods-EService-umbrella.h"
+
+  export *
+  module * { export * }
+}
