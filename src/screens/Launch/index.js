@@ -41,8 +41,8 @@ const styles = StyleSheet.create({
     width: wp("120"),
     height: hp("32"),
     resizeMode: "stretch",
-    alignSelf:'center',
-    marginTop:hp("5")
+    alignSelf: "center",
+    marginTop: hp("5"),
   },
   container: { flex: 1 },
 });
