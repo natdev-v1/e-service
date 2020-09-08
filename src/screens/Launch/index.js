@@ -8,7 +8,12 @@ import {
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
 
-export default () => {
+export default ({ navigation }) => {
+  setTimeout(() => {
+    navigation.navigate("LevelOne", {
+      screen: "Login",
+    });
+  }, 5000);
   return (
     <LinearGradient
       colors={["#0C4DA1", "#528AD1"]}
