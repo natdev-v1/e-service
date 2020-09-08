@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 import images from "../../util/refImage";
 import { SafeAreaView } from "react-native-safe-area-context";
-import LinearGradient from "react-native-linear-gradient";
+import TextInput from "../../components/TextInput";
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -16,7 +16,7 @@ export default function index() {
         <Image style={styles.logoImage} source={images.samsung_logo}></Image>
       </SafeAreaView>
       <View style={styles.containerFormLogin}>
-        <Text>sdf</Text>
+        <TextInput></TextInput>
       </View>
     </>
   );
