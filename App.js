@@ -17,6 +17,7 @@ function App() {
           // Use some screens conditionally
         }).map(([name, component]) => (
           <Stack.Screen
+            key={name}
             options={{ headerShown: false }}
             name={name}
             component={component}
